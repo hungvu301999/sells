@@ -5,8 +5,7 @@ import star_dull_icon from '~/Components/Assets/star_dull_icon.png';
 
 const ProductDisplay = (props) => {
     const { product } = props;
-    console.log(props);
-    console.log(product);
+
     return (
         <div className="productDisplay">
             <div className="productDisplay-left">
